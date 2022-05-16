@@ -1,0 +1,55 @@
+/* About me section outer div */
+
+.About-container {
+    padding-top: 130px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.About{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+/* Photo of me */
+.About img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* My name */
+
+.About h1{
+font-size: 38px;
+font-family: "Helvetica", 'Times New Roman', Times, serif;
+
+}
+
+/* Info about me paragraph */
+
+.About p{
+    line-height: 1.5;
+    font-family: "Book Antiqua", 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/* Links */
+
+.About-link{
+    color: #0000ff;
+    text-decoration: none;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.About-link:hover{
+    text-decoration: underline;
+}
+
+
+

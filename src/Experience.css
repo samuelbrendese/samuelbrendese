@@ -1,0 +1,138 @@
+@media screen and (min-width: 768px){
+
+.Experience-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* horrizontal black line */
+
+.Divider{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+/* Content Div */
+
+.Experience {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.Experience h4 {
+    text-align: left;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+}
+
+.Experience p {
+    width: 90%;
+    margin-left: 10%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Book Antiqua", 'Times New Roman', Times, serif;
+}
+
+/* Resume container */
+
+.Rb-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+/* Resume button */
+
+.Resume-button {   
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition:all .25s;
+   -webkit-transition:all .25s;
+   -moz-transition:all .25s;
+}
+
+.Resume-button:hover {
+    border-radius: 24px;
+}
+
+}
+
+@media screen and (max-width: 767px){
+    .Experience-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .Divider {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .Experience {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+      
+    .Experience h4 {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+        font-family: "Helvetica", 'Times New Roman', Times, serif;
+    }
+    
+    .Experience p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: "Book Antiqua", 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .Rb-container {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .Resume-button {   
+        background-color: #000000;
+        border: none;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border-radius: 8px;
+        font-family: "Helvetica", 'Times New Roman', Times, serif;
+        margin-top: 30px;
+        margin-bottom: 40px;   
+        transition:all .25s;
+       -webkit-transition:all .25s;
+       -moz-transition:all .25s;   
+    }
+    
+    .Resume-button:hover {
+        border-radius: 24px;
+    }
+}

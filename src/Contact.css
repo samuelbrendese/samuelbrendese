@@ -1,0 +1,47 @@
+/* Outer div container */
+.Contact {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.Contact h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+
+}
+
+ .Button{   
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 8px;
+    align-items: center;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+ }
+
+ .Button:hover{
+     border-radius: 50%;
+ }
+
+ /* Image/icon */
+
+ .Button-img{
+     width: 50px;
+     height: 50px;
+ }

@@ -1,0 +1,193 @@
+@media screen and (min-width: 768px){
+/* black horrizontal line */
+.Divider {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-top: 2px solid black;
+}
+
+.Projects-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Section Title container */
+
+.Title {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.Title h2 {
+    text-align: left;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 34px;
+}
+
+/* Row of projects */
+
+.Card-row {
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Sing Project container */
+
+.Card-row div {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.Card-row div img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 10px;
+    transition:all .40s;
+   -webkit-transition:all .40s;
+   -moz-transition:all .40s;
+}
+
+.Card-row div img:hover {
+    border-radius:50%;
+}
+
+.Card-row div h3 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.Card-row div h4 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: "Helvetica", 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Card-row div h4 a {
+   color: #0000FF;
+   text-decoration: none;
+}
+
+.Card-row div h4 a:hover {
+    text-decoration: underline;
+ }
+
+.Card-row div p {
+    width: 100%;
+    margin: auto;
+    font-family: "Book Antiqua", 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+    .Divider{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        border-top: 2px solid black;
+    }    
+    
+    .Projects-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }  
+
+    .Title {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .Title h2 {
+        text-align: center;
+        font-family: "Helvetica", 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin-top: 34px;
+    }
+
+    .Card-row {
+        width: 80%;
+        height: auto;
+        margin: auto;   
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .Card-row div {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Card-row div img {
+        width: 190px;
+        height: 190px;
+        margin-bottom: 10px;
+        transition:all .40s;
+       -webkit-transition:all .40s;
+       -moz-transition:all .40s;
+    }
+
+    .Card-row div img:hover {
+        border-radius:50%;
+    }
+
+    .Card-row div h3 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-family: "Helvetica", 'Times New Roman', Times, serif;
+        font-size: 23px;
+    }
+
+    .Card-row div h4 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-family: "Helvetica", 'Times New Roman', Times, serif;
+        font-size: 20px;      
+    }
+
+    .Card-row div h4 a {
+        color: #0000FF;
+        text-decoration: none;
+     }
+
+     .Card-row div h4 a:hover {
+        text-decoration: underline;
+     }
+
+     .Card-row div h4 a:hover {
+        text-decoration: underline;
+     }
+
+     .Card-row div p {
+        width: 100%;
+        margin: auto;
+        font-family: "Book Antiqua", 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+}
