@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/samuelbrendese/static/css/main.870c3f9c.css",
+    "main.css": "/samuelbrendese/static/css/main.292533bd.css",
     "main.js": "/samuelbrendese/static/js/main.bc0119c6.js",
     "static/js/787.1ed0c42c.chunk.js": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/samuelbrendese/static/media/me.a504bda1432abff2fa5f.png",
@@ -13,12 +13,12 @@
     "static/media/stamp.png": "/samuelbrendese/static/media/stamp.797e220312f00d7a18e4.png",
     "static/media/linkedin.png": "/samuelbrendese/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/samuelbrendese/index.html",
-    "main.870c3f9c.css.map": "/samuelbrendese/static/css/main.870c3f9c.css.map",
+    "main.292533bd.css.map": "/samuelbrendese/static/css/main.292533bd.css.map",
     "main.bc0119c6.js.map": "/samuelbrendese/static/js/main.bc0119c6.js.map",
     "787.1ed0c42c.chunk.js.map": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.870c3f9c.css",
+    "static/css/main.292533bd.css",
     "static/js/main.bc0119c6.js"
   ]
 }
