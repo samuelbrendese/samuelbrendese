@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/samuelbrendese/static/css/main.790f6500.css",
-    "main.js": "/samuelbrendese/static/js/main.86ea7a17.js",
+    "main.css": "/samuelbrendese/static/css/main.aab2ba35.css",
+    "main.js": "/samuelbrendese/static/js/main.812e4840.js",
     "static/js/787.1ed0c42c.chunk.js": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/samuelbrendese/static/media/me.a504bda1432abff2fa5f.png",
-    "static/media/RESUME_SAMUEL_BRENDESE.pdf": "/samuelbrendese/static/media/RESUME_SAMUEL_BRENDESE.fb67c5ebbfa71a876b4a.pdf",
-    "static/media/blog.png": "/samuelbrendese/static/media/blog.3123febaec5639b76be7.png",
-    "static/media/profile-draft.png": "/samuelbrendese/static/media/profile-draft.f28713c5046405f0f0ea.png",
-    "static/media/carrot.png": "/samuelbrendese/static/media/carrot.ad3aa4e4b4730132ebc8.png",
-    "static/media/profile.png": "/samuelbrendese/static/media/profile.42a11135750f3a0a0aeb.png",
-    "static/media/ttt.png": "/samuelbrendese/static/media/ttt.b5332c6a9ea277b86d1c.png",
-    "static/media/todo.png": "/samuelbrendese/static/media/todo.62a316994f7387437117.png",
-    "static/media/stamp.png": "/samuelbrendese/static/media/stamp.ce57f5b8bf53fa240327.png",
-    "static/media/linkedin.png": "/samuelbrendese/static/media/linkedin.a680cb8ad2b88be03d17.png",
-    "static/media/email.png": "/samuelbrendese/static/media/email.cc39a90b49ebcc9d1a13.png",
+    "static/media/SAMUEL_BRENDESE_RESUME.pdf": "/samuelbrendese/static/media/SAMUEL_BRENDESE_RESUME.fd53ec886518b372f439.pdf",
+    "static/media/carrot.png": "/samuelbrendese/static/media/carrot.85ec2450695214d97bd7.png",
+    "static/media/email.png": "/samuelbrendese/static/media/email.03432b949ee5f8429161.png",
+    "static/media/dribbble.png": "/samuelbrendese/static/media/dribbble.8dc5971014e087dfc9c0.png",
+    "static/media/github.png": "/samuelbrendese/static/media/github.8e2a9e7d53fa4340a09e.png",
+    "static/media/ttt.png": "/samuelbrendese/static/media/ttt.475e6d0db84ab9158465.png",
+    "static/media/stamp.png": "/samuelbrendese/static/media/stamp.797e220312f00d7a18e4.png",
+    "static/media/linkedin.png": "/samuelbrendese/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/samuelbrendese/index.html",
-    "main.790f6500.css.map": "/samuelbrendese/static/css/main.790f6500.css.map",
-    "main.86ea7a17.js.map": "/samuelbrendese/static/js/main.86ea7a17.js.map",
+    "main.aab2ba35.css.map": "/samuelbrendese/static/css/main.aab2ba35.css.map",
+    "main.812e4840.js.map": "/samuelbrendese/static/js/main.812e4840.js.map",
     "787.1ed0c42c.chunk.js.map": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.790f6500.css",
-    "static/js/main.86ea7a17.js"
+    "static/css/main.aab2ba35.css",
+    "static/js/main.812e4840.js"
   ]
 }
