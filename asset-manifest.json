@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/samuelbrendese/static/css/main.980c56b0.css",
-    "main.js": "/samuelbrendese/static/js/main.d5672e5f.js",
+    "main.js": "/samuelbrendese/static/js/main.ebcbe6d2.js",
     "static/js/787.1ed0c42c.chunk.js": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js",
-    "static/media/me.png": "/samuelbrendese/static/media/me.a504bda1432abff2fa5f.png",
+    "static/media/me.png": "/samuelbrendese/static/media/me.7f9978f9a926d98f40c7.png",
     "static/media/SAMUEL_BRENDESE_RESUME.pdf": "/samuelbrendese/static/media/SAMUEL_BRENDESE_RESUME.2498fafabde2dbb02828.pdf",
     "static/media/carrot.png": "/samuelbrendese/static/media/carrot.85ec2450695214d97bd7.png",
     "static/media/email.png": "/samuelbrendese/static/media/email.03432b949ee5f8429161.png",
@@ -14,11 +14,11 @@
     "static/media/linkedin.png": "/samuelbrendese/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/samuelbrendese/index.html",
     "main.980c56b0.css.map": "/samuelbrendese/static/css/main.980c56b0.css.map",
-    "main.d5672e5f.js.map": "/samuelbrendese/static/js/main.d5672e5f.js.map",
+    "main.ebcbe6d2.js.map": "/samuelbrendese/static/js/main.ebcbe6d2.js.map",
     "787.1ed0c42c.chunk.js.map": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.980c56b0.css",
-    "static/js/main.d5672e5f.js"
+    "static/js/main.ebcbe6d2.js"
   ]
 }
