@@ -3,25 +3,34 @@
     width: 100%;
     height: auto;
     margin: auto;
-    background-color: #000000;
+    background-color: #f7f7f7;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
 
 }
 
-.Contact h2{
-    color: #ffffff;
-    font-size: 30px;
-    font-family: "Helvetica", 'Times New Roman', Times, serif;
+#Title{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
 
+#ConnectMessage {
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #636363;
+    margin-bottom: 15px;
 }
 
  .Button{   
-    background-color: #ffffff;
     border: none;
-    color: #000000;
-    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -30,13 +39,6 @@
     border-radius: 8px;
     align-items: center;
     font-family: "Helvetica", 'Times New Roman', Times, serif;
-    transition: all .25s;
-    -webkit-transition: all .25s;
-    -moz-transition: all .25s;
- }
-
- .Button:hover{
-     border-radius: 50%;
  }
 
  /* Image/icon */

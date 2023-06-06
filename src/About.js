@@ -1,31 +1,36 @@
 import React from 'react';
 import './About.css';
-import './Contact.css'
-import Me from './Photos/me.png';
+import './Projects.css';
 
 function About(){
     return(
-        <div>
-            <div class="About-container" id="About">
-                {/*class "About" holds all content*/}
-                <div class="About">
-                    {/*Picture of me*/}
-                    <img src={Me} alt="Me" />
-                    <h1>Samuel Brendese</h1>
-                    <p><b><a href="mailto:sambrendese@gmail.com" class="About-link">sambrendese@gmail.com</a> |  
-                        <a href="https://www.linkedin.com/in/samuel-brendese-4075721a8/" class="About-link"> LinkedIn: Samuel Brendese</a></b><br /><br />
-                        I am a Front End Developer and recent Computer Science graduate with industry experience building 
-                        websites, databases, and web applications.<br /><br />
-
-                        My goal is to maintain relationships with clients during and after user requirements 
-                        have been 100% satisfied in the most efficient and quality manner.<br /><br />
-
-                        In my free time I enjoy playing ice hockey, 
-                        golfing, cooking, weight lifting, and building websites.<br />
-                    </p>
-                </div>
+    <div>
+        <div class="Skills-container" id="About">  
+            <div class='Title'>
+                <p id="Title">ABOUT ME</p>
             </div>
-        </div>           
+            <div class="Skills">
+                <div>
+                    <p>
+                    My experience as a developer has allowed me to capitalize on my ability 
+                    to communicate with engineers and understand what
+                    helps maximize the value of a product while ensuring the satisfaction of the customers I serve.
+                    What I thrive on is consistent teamwork and collaboration in a positive work environment. 
+                    What I bring to the table is the drive to empathize with customers and stakeholders to
+                    create the best user experience possible.
+                    These qualities when combined with a passion for technology are what have
+                    inspired me to pursue becoming a product manager. In my free time,
+                    I enjoy playing ice hockey, golfing, reading, and cooking.
+                    </p>
+                    <h3>Skills</h3>
+                    <p id="skillsList">JavaScript, HTML/CSS, React, Figma, DevOps/Jira,
+                    Basecamp, Confluence, Salesforce, 
+                    SharePoint, Excel, Power BI, SQL, 
+                    TypeScript, Bootstrap, Git/GitHub, Linux OS</p>
+                </div>
+            </div>            
+        </div>
+    </div>
     )
 }
 

@@ -3,9 +3,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div class="Footer">
-            {/* default footer div to complete the page*/}
-        </div>
+        <div class="footer"></div>
     )
 }
 

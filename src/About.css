@@ -1,55 +1,78 @@
-/* About me section outer div */
-
-.About-container {
-    padding-top: 130px;
-    padding-bottom: 20px;
-    width: 100%;
-    height: auto;
-}
-
-.About{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    align-content: center;
+#skillsList{
     text-align: center;
 }
 
-/* Photo of me */
-.About img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+@media screen and (min-width: 768px){
+.Skills-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Skills div */
+.Skills {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 40px;
 }
 
-/* My name */
-
-.About h1{
-font-size: 38px;
-font-family: "Helvetica", 'Times New Roman', Times, serif;
+.Skills h3{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
 
 }
 
-/* Info about me paragraph */
-
-.About p{
+.Skills p{
+    width: 100%;
+    margin: auto;
     line-height: 1.5;
-    font-family: "Book Antiqua", 'Times New Roman', Times, serif;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
     font-size: 18px;
+    color: #636363;
+    margin-bottom: 15px;
 }
 
-/* Links */
-
-.About-link{
-    color: #0000ff;
-    text-decoration: none;
-    font-family: "Helvetica", 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
-
-.About-link:hover{
-    text-decoration: underline;
 }
 
 
 
+@media screen and (max-width: 767px){
+
+    .Skills-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .Skills {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .Skills h3{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        font-family: "Poppins", 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    .Skills p{
+        width: 100%;
+        margin: auto;
+        line-height: 1.5;
+        font-family: "Poppins", 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: #636363;
+        margin-bottom: 15px;
+    }
+}

@@ -1,13 +1,11 @@
 a {
   color: #000000;
   font-family: "Helvetica", 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 19px;
 }
 
-/* header */
-
 .header {
-  background-color: #fff;
+  background-color: #f7f7f7;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -21,7 +19,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 /* header list link */
@@ -29,15 +27,18 @@ a {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #f7f7f7;
   text-decoration: none;
+  color: #636363;
+  font-size: 19px;
+  font-family: "Helvetica", 'Times New Roman', Times, serif;
 }
 
 /* hovering over a list link on the top of the menu */
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  color: #000000;
 }
 
 /* menu */
