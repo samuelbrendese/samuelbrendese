@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samuelbrendese/static/css/main.980c56b0.css",
-    "main.js": "/samuelbrendese/static/js/main.ed0b72f8.js",
+    "main.js": "/samuelbrendese/static/js/main.4c193499.js",
     "static/js/787.1ed0c42c.chunk.js": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/samuelbrendese/static/media/me.7f9978f9a926d98f40c7.png",
     "static/media/SAMUEL_BRENDESE_RESUME.pdf": "/samuelbrendese/static/media/SAMUEL_BRENDESE_RESUME.7260e9ccdc9d883a9075.pdf",
@@ -14,11 +14,11 @@
     "static/media/linkedin.png": "/samuelbrendese/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/samuelbrendese/index.html",
     "main.980c56b0.css.map": "/samuelbrendese/static/css/main.980c56b0.css.map",
-    "main.ed0b72f8.js.map": "/samuelbrendese/static/js/main.ed0b72f8.js.map",
+    "main.4c193499.js.map": "/samuelbrendese/static/js/main.4c193499.js.map",
     "787.1ed0c42c.chunk.js.map": "/samuelbrendese/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.980c56b0.css",
-    "static/js/main.ed0b72f8.js"
+    "static/js/main.4c193499.js"
   ]
 }
