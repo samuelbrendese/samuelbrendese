@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import Dark_Blue_Download from "../images/icons/Dark_Blue_Download.svg";
 import Footer_Email from "../images/icons/Footer_Email.svg";
@@ -19,9 +20,9 @@ export default function Footer() {
    <footer className="footer">
       <div className="footer-top">
         <div className="footer-links">
-          <a href="/">Portfolio</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+          <Link to="/">Portfolio</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
 
           <a href={Resume} download className="footer-resume-link">
             Resume

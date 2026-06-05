@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./About.css";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -40,9 +41,9 @@ export default function About() {
             </p>
           </div>
 
-          <a href="/contact" className="about-contact-button">
+          <Link to="/contact" className="about-contact-button">
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* About Image Placeholder */}

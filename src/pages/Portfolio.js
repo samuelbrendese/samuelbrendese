@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Portfolio.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -56,13 +57,13 @@ export default function Portfolio() {
             <h3>Professional</h3>
 
             <div className="project-grid">
-              <a href="/webinars" className="project-card">
+              <Link to="/webinars" className="project-card">
                 <img src={WebinarsLogo} alt="Webinars" />
-              </a>
+              </Link>
 
-              <a href="/recommender" className="project-card">
+              <Link to="/recommender" className="project-card">
                 <img src={RecommenderLogo} alt="Recommender" />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -70,13 +71,13 @@ export default function Portfolio() {
             <h3>Personal</h3>
 
             <div className="project-grid">
-              <a href="/y-health" className="project-card">
+              <Link to="/y-health" className="project-card">
                 <img src={Y_Health_Logo} alt="Y_Health" />
-              </a>
+              </Link>
 
-              <a href="/fuscos-detailing" className="project-card">
+              <Link to="/fuscos-detailing" className="project-card">
                 <img src={Fuscos_Logo} alt="Fuscos" />
-              </a>
+              </Link>
             </div>
           </div>
         </section>
