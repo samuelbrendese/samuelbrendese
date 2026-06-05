@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Nav.css";
 import Blue_Download from "../images/icons/Blue_Download.svg";
 import White_Download from "../images/icons/White_Download.svg";
 import Dark_Blue_Download from "../images/icons/Dark_Blue_Download.svg";
+import Black_Download from "../images/icons/Black_Download.svg";
 import SB from "../images/SB_Logo.png";
 import Resume from "../files/RESUME_SAMUEL_BRENDESE.pdf";
 
@@ -11,6 +12,7 @@ export default function Nav() {
   
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
+  const location = useLocation();
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -28,9 +30,17 @@ export default function Nav() {
       <Link to="/" className="nav-logo"><img src={SB} alt="SB_Logo" /></Link>
 
       <div className="nav-links">
-        <Link to="/">Portfolio</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" onClick={() => {
+          if (location.pathname === "/") { window.scrollTo(0,0); window.location.reload(); }
+        }}>Portfolio</Link>
+
+        <Link to="/about" onClick={() => {
+          if (location.pathname === "/about") { window.scrollTo(0,0); window.location.reload(); }
+        }}>About</Link>
+
+        <Link to="/contact" onClick={() => {
+          if (location.pathname === "/contact") { window.scrollTo(0,0); window.location.reload(); }
+        }}>Contact</Link>
 
         <a href={Resume} download className="nav-resume-button">
           Resume
@@ -47,18 +57,32 @@ export default function Nav() {
         <button
           className="hamburger-button"
           aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(prev => !prev)}
         >
           ☰
         </button>
 
         {menuOpen && (
           <div className="mobile-menu">
-            <Link to="/">Portfolio</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <a href={Resume} download>
+            <Link to="/" onClick={() => {
+              setMenuOpen(false);
+              if (location.pathname === "/") { window.scrollTo(0,0); window.location.reload(); }
+            }}>Portfolio</Link>
+
+            <Link to="/about" onClick={() => {
+              setMenuOpen(false);
+              if (location.pathname === "/about") { window.scrollTo(0,0); window.location.reload(); }
+            }}>About</Link>
+
+            <Link to="/contact" onClick={() => {
+              setMenuOpen(false);
+              if (location.pathname === "/contact") { window.scrollTo(0,0); window.location.reload(); }
+            }}>Contact</Link>
+
+            <a href={Resume} download onClick={() => setMenuOpen(false)}>
               Resume
-              <img src="/images/download-icon.png" alt="" />
+              <img src={Black_Download} alt="Download_Icon" style={{ marginLeft: '.25rem' }} />
             </a>
           </div>
         )}

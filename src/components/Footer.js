@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Footer.css";
 import Dark_Blue_Download from "../images/icons/Dark_Blue_Download.svg";
 import Footer_Email from "../images/icons/Footer_Email.svg";
@@ -15,14 +15,23 @@ import Resume from "../files/RESUME_SAMUEL_BRENDESE.pdf";
 
 export default function Footer() {
   const [hoveredIcon, setHoveredIcon] = useState(null);
+  const location = useLocation();
 
   return (
    <footer className="footer">
       <div className="footer-top">
         <div className="footer-links">
-          <Link to="/">Portfolio</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/" onClick={() => {
+            if (location.pathname === "/") { window.scrollTo(0,0); window.location.reload(); }
+          }}>Portfolio</Link>
+
+          <Link to="/about" onClick={() => {
+            if (location.pathname === "/about") { window.scrollTo(0,0); window.location.reload(); }
+          }}>About</Link>
+
+          <Link to="/contact" onClick={() => {
+            if (location.pathname === "/contact") { window.scrollTo(0,0); window.location.reload(); }
+          }}>Contact</Link>
 
           <a href={Resume} download className="footer-resume-link">
             Resume
