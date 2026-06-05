@@ -1,0 +1,185 @@
+/* About Page */
+
+.about-page {
+  width: 100%;
+  background: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  
+}
+
+/* About Section Layout */
+
+.about-section {
+  min-height: calc(100vh - 14rem);
+  padding: 5rem 10.75rem 8rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* About Text Content */
+
+.about-content h1 {
+  margin: 0 0 2rem;
+  color: #5d8df4;
+  font-size: 3.4rem;
+  line-height: 1;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.about-text {
+  max-width: 43rem;
+}
+
+.about-text p {
+  margin: 0 0 1.8rem;
+  color: #070707;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+/* Contact Button */
+
+.about-contact-button {
+  width: fit-content;
+  margin-top: 0.6rem;
+  padding: 0.75rem 2.1rem;
+  background: #07176d;
+  color: #ffffff;
+  border-radius: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+/* About Image Placeholder */
+
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-placeholder {
+  width: 19rem;
+  height: 19rem;
+  border-radius: 50%;
+}
+
+
+
+
+
+.about-contact-button {
+  background: #07176d;
+  color: #ffffff !important;
+  border-radius: 1.125rem;
+  padding: 0.5rem 0.9375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  transition-duration: 0.4s;
+
+}
+
+.about-contact-button img,
+.mobile-menu img {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #ffffff;
+  object-fit: cover;
+}
+
+
+
+/* resume button animation */
+
+.about-contact-button:hover {
+  background-color: #5d8df4;
+
+  transition: all .10s;
+  transform : translateY(-2px);
+}
+
+/***********/
+
+/* Tablet Responsiveness */
+
+@media (max-width: 64rem) {
+  .about-section {
+      padding: 4.5rem 5rem 7rem;
+
+  /* CHANGED */
+  grid-template-columns: auto auto;
+
+  /* CHANGED */
+  justify-content: center;
+
+  /* CHANGED */
+  gap: 4rem;
+  }
+
+  .about-content h1 {
+    font-size: 3rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .about-image-placeholder {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+
+/* Mobile Responsiveness */
+
+@media (max-width: 40rem) {
+  .about-section {
+    padding: 3.5rem 1.75rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content h1 {
+    font-size: 2.65rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .about-contact-button {
+    margin-top: 0.4rem;
+  }
+
+  .about-image-placeholder {
+    width: 13.5rem;
+    height: 13.5rem;
+  }
+}

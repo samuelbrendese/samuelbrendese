@@ -1,0 +1,151 @@
+/* Y-Health Case Study Page */
+
+.yhealth-page {
+  width: 100%;
+  background: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #070707;
+}
+
+/* Main Case Study Section */
+
+.yhealth-section {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 5.5rem 2rem 6rem;
+}
+
+/* Top Project Overview Section */
+
+.yhealth-intro-section {
+  display: grid;
+  grid-template-columns: 1fr 19rem;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* Project Intro Text */
+
+.yhealth-intro-text h1 {
+  margin: 0 0 1.5rem;
+  color: #161616;
+  font-size: 2.1rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.yhealth-intro-text p {
+  margin: 0;
+  color: #070707;
+  font-size: 1rem;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* Project Image Placeholder */
+
+.yhealth-image-placeholder {
+  width: 22rem;
+  height: 22rem;
+}
+
+/* Body Content Blocks */
+
+.yhealth-content-block {
+  margin-bottom: 2.1rem;
+  text-align: left;
+}
+
+.yhealth-content-block h2 {
+  margin: 0 0 0.8rem;
+  color: #161616;
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.yhealth-content-block p {
+  margin: 0 0 1.1rem;
+  color: #070707;
+  font-size: 1rem;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* Tablet Responsiveness */
+
+@media (max-width: 64rem) {
+  .yhealth-section {
+    max-width: 58rem;
+    padding: 5rem 2rem 5.5rem;
+  }
+
+  .yhealth-intro-section {
+    grid-template-columns: 1fr 16rem;
+    gap: 3.5rem;
+  }
+
+  .yhealth-image-placeholder {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .yhealth-intro-text h1 {
+    font-size: 1.95rem;
+  }
+
+  .yhealth-content-block h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 40rem) {
+  .yhealth-section {
+    padding: 3.5rem 1.75rem 4.5rem;
+  }
+
+  .yhealth-intro-section {
+    display: flex;
+    flex-direction: column-reverse;
+
+    /* CHANGED */
+    align-items: center;
+
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* NEW */
+  .yhealth-intro-text,
+  .yhealth-content-block {
+    width: 100%;
+  }
+
+  .yhealth-image-placeholder {
+    width: 100%;
+    max-width: 19rem;
+    height: 14rem;
+
+    /* NEW */
+    margin: 0 auto;
+  }
+
+  .yhealth-intro-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .yhealth-intro-text p,
+  .yhealth-content-block p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .yhealth-content-block h2 {
+    font-size: 1.45rem;
+  }
+}

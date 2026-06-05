@@ -1,0 +1,327 @@
+/* AI Recommender Case Study Page */
+
+.ai-recommender-page {
+  width: 100%;
+  background: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #070707;
+}
+
+/* Main Page Container */
+
+.ai-recommender-section {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem;
+}
+
+/* Top Hero Image Placeholder */
+
+.ai-hero-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+}
+
+.ai-hero-image {
+  display: block;
+  width: 30rem;
+  height: 8rem;
+  margin: 0 0 1.5rem 0;
+  background-color: purple;
+}
+
+/* Intro Section */
+
+.ai-intro-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.ai-intro-text p,
+.ai-content-block p {
+  margin: 0 0 1.15rem;
+  color: #070707;
+  font-size: 1rem;
+  line-height: 1.55;
+  font-weight: 500;
+  text-align: left;
+}
+
+.ai-intro-image {
+  display: block;
+  margin: 0 auto;
+  width: 60rem;
+  height: 28rem;
+  margin-bottom: 4rem;
+}
+
+/* Shared Content Blocks */
+
+.ai-content-block {
+  /* CHANGED */
+  margin-bottom: 3rem;
+
+  text-align: left;
+}
+
+.ai-content-block h2 {
+  margin: 0 0 2.25rem;
+  color: #161616;
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+/* Problem Section */
+
+.ai-problem-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.15rem;
+}
+
+.ai-problem-item {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.ai-problem-icon {
+  width: 4.25rem;
+  height: 2.5rem;
+  display: inline-block;
+  justify-self: start;
+}
+
+.ai-problem-item p {
+  margin: 0;
+}
+
+/* Solution Section */
+
+.ai-content-block strong {
+  font-weight: 900;
+}
+
+.ai-solution-image {
+  display: block;
+  margin: 2.5rem auto 1.5rem;
+  width: 42rem;
+  height: 24rem;
+}
+
+.ai-kpi-text {
+  margin-top: 0;
+}
+
+/* Execution Section */
+
+.ai-execution-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 4rem;
+}
+
+.ai-execution-card {
+  text-align: left;
+}
+
+.ai-execution-card h3,
+.ai-execution-card h4 {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ai-execution-card h3 {
+  color: #5d8df4;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0.25rem;
+}
+
+.ai-execution-card h4 {
+  color: #161616;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 1.25rem;
+}
+
+.ai-execution-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.ai-execution-card li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Results Section */
+
+.ai-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.ai-result-card {
+  text-align: center;
+}
+
+.ai-result-card h3 {
+  margin: 0 0 0.45rem;
+  color: #5d8df4;
+  font-size: 2.7rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.ai-result-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Tablet Responsiveness */
+
+@media (max-width: 64rem) {
+  .ai-recommender-section {
+    max-width: 58rem;
+    padding: 2rem 2rem 5rem;
+  }
+
+  .ai-intro-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .ai-intro-image {
+    width: 40rem;
+    height: 20rem;
+    margin-bottom: 4rem;
+  }
+
+  .ai-content-block h2 {
+    font-size: 1.6rem;
+  }
+
+  .ai-execution-grid {
+    gap: 2rem 3rem;
+  }
+
+  .ai-solution-image {
+    display: block;
+    width: 40rem;
+    height: 25rem;
+    margin: 2.5rem auto 1.5rem;
+  }
+
+  .ai-hero-image {
+  width: 26rem;
+  height: 7rem;
+  }
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 40rem) {
+  .ai-recommender-section {
+    padding: 3.5rem 1.75rem 4.5rem;
+  }
+
+  .ai-hero-image {
+    display: block;
+    max-width: 19rem;
+    margin: 0 0 2rem 0;
+    width: 20rem;
+    height: 5rem;
+  
+  }
+
+  .ai-intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .ai-intro-text {
+    width: 100%;
+  }
+
+  .ai-intro-image {
+    width: 25rem;
+    height: 12rem;
+    margin-bottom: 4rem;
+  }
+
+  .ai-content-block h2 {
+    font-size: 1.45rem;
+  }
+
+  .ai-intro-text p,
+  .ai-content-block p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .ai-problem-item {
+    grid-template-columns: 2.75rem 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .ai-problem-icon {
+    width: 2.75rem;
+    height: 2rem;
+  }
+
+  .ai-solution-image {
+    margin: 2.5rem auto;
+     width: 26rem;
+  height: 15rem;
+  margin-bottom: 1.5rem;
+  }
+
+  .ai-execution-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .ai-execution-card h3,
+  .ai-execution-card h4 {
+    white-space: nowrap;
+  }
+
+  .ai-results-grid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
+  .ai-result-card {
+    text-align: center;
+  }
+
+  .ai-result-card h3 {
+    font-size: 2.8rem;
+  }
+
+  .ai-result-card p {
+    text-align: center;
+  }
+}

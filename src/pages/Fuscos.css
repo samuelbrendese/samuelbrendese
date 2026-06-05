@@ -1,0 +1,167 @@
+/* Fusco's Detailing Case Study Page */
+
+.fuscos-page {
+  width: 100%;
+  background: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #070707;
+}
+
+/* Main Case Study Section */
+
+.fuscos-section {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 5.5rem 2rem 6rem;
+}
+
+/* Top Project Overview Section */
+
+.fuscos-intro-section {
+  display: grid;
+  grid-template-columns: 1fr 19rem;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* Project Text Content */
+
+.fuscos-intro-text h1 {
+  margin: 0 0 1.5rem;
+  color: #161616;
+  font-size: 2.1rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.fuscos-intro-text p {
+  margin: 0 0 1.6rem;
+  color: #070707;
+  font-size: 1rem;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* Project Image Placeholder */
+
+.fuscos-image-placeholder {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 18px;
+}
+
+/* Body Content Block */
+
+.fuscos-content-block {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.fuscos-content-block p {
+  margin: 0;
+  color: #070707;
+  font-size: 1rem;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* Project Link Section */
+
+.fuscos-link-section {
+  text-align: left;
+}
+
+.fuscos-project-link {
+  color: #070707;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.fuscos-link-text {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.fuscos-link-text::after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 50%;
+  background: #070707;
+  transition: width 0.3s ease, left 0.3s ease;
+  width: 0;
+}
+
+.fuscos-project-link:hover .fuscos-link-text::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Tablet Responsiveness */
+
+@media (max-width: 64rem) {
+  .fuscos-section {
+    max-width: 58rem;
+    padding: 5rem 2rem 5.5rem;
+  }
+
+  .fuscos-intro-section {
+    grid-template-columns: 1fr 16rem;
+    gap: 3.5rem;
+  }
+
+  .fuscos-image-placeholder {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .fuscos-intro-text h1 {
+    font-size: 1.95rem;
+  }
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 40rem) {
+  .fuscos-section {
+    padding: 3.5rem 1.75rem 4.5rem;
+  }
+
+  .fuscos-intro-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .fuscos-intro-text,
+  .fuscos-content-block,
+  .fuscos-link-section {
+    width: 100%;
+  }
+
+  .fuscos-image-placeholder {
+    width: 100%;
+    max-width: 19rem;
+    height: 12rem;
+    margin: 0 auto;
+  }
+
+  .fuscos-intro-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .fuscos-intro-text p,
+  .fuscos-content-block p,
+  .fuscos-project-link {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}

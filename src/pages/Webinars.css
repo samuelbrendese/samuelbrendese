@@ -1,0 +1,302 @@
+/* Webinars Case Study Page */
+
+.webinars-page {
+  width: 100%;
+  background: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #070707;
+}
+
+/* Main Page Container */
+
+.webinars-section {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem;
+}
+
+/* Top Hero Image Placeholder */
+
+.webinars-hero-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+}
+
+.webinars-hero-image {
+  display: block;
+  width: 30rem;
+  height: 8rem;
+  margin: 0 0 1.5rem 0;
+}
+
+/* Intro Section */
+
+.webinars-intro-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.webinars-intro-text p,
+.webinars-content-block p {
+  margin: 0 0 1.15rem;
+  color: #070707;
+  font-size: 1rem;
+  line-height: 1.55;
+  font-weight: 500;
+  text-align: left;
+}
+
+.webinars-intro-image {
+  display: block;
+  margin: 0 auto;
+  width: 50rem;
+  height: 50rem;
+  background: #000000;
+}
+
+/* Shared Content Blocks */
+
+.webinars-content-block {
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.webinars-content-block h2 {
+  margin: 0 0 2rem;
+  color: #161616;
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+/* Problem Section */
+
+.webinars-problem-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.15rem;
+}
+
+.webinars-problem-item {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.webinars-problem-icon {
+  width: 4.25rem;
+  height: 2.5rem;
+  display: inline-block;
+  justify-self: start;
+}
+
+.webinars-problem-item p {
+  margin: 0;
+}
+
+/* Solution Section */
+
+.webinars-content-block strong {
+  font-weight: 900;
+}
+
+.webinars-kpi-text {
+  margin-top: 1.5rem;
+}
+
+/* Execution Section */
+
+.webinars-execution-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 4rem;
+}
+
+.webinars-execution-card {
+  text-align: left;
+}
+
+.webinars-execution-card h3,
+.webinars-execution-card h4 {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.webinars-execution-card h3 {
+  color: #5d8df4;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0.25rem;
+}
+
+.webinars-execution-card h4 {
+  color: #161616;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 1.25rem;
+}
+
+.webinars-execution-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.webinars-execution-card li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Results Section */
+
+.webinars-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.webinars-result-card {
+  text-align: center;
+}
+
+.webinars-result-card h3 {
+  margin: 0 0 0.45rem;
+  color: #5d8df4;
+  font-size: 2.7rem;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.webinars-result-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: center;
+}
+
+.webinars-result-note {
+  font-weight: 900 !important;
+  margin-top: 0.3rem !important;
+}
+
+/* Tablet Responsiveness */
+
+@media (max-width: 64rem) {
+  .webinars-section {
+    max-width: 58rem;
+    padding: 2rem 2rem 5rem;
+  }
+
+  .webinars-intro-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .webinars-intro-image {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .webinars-content-block h2 {
+    font-size: 1.6rem;
+  }
+
+  .webinars-execution-grid {
+    gap: 2rem 3rem;
+  }
+
+  .webinars-hero-image {
+  width: 26rem;
+  height: 7rem;
+  }
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 40rem) {
+  .webinars-section {
+    padding: 3.5rem 1.75rem 4.5rem;
+  }
+
+  .webinars-hero-image {
+    display: block;
+    max-width: 19rem;
+    margin: 0 0 2rem 0;
+    width: 20rem;
+    height: 5rem;
+  }
+
+  .webinars-intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .webinars-intro-text {
+    width: 100%;
+  }
+
+  .webinars-intro-image {
+    width: 26rem;
+    height: 26rem;
+    margin: 0 auto;
+  }
+
+  .webinars-content-block h2 {
+    font-size: 1.45rem;
+  }
+
+  .webinars-intro-text p,
+  .webinars-content-block p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .webinars-problem-item {
+    grid-template-columns: 2.75rem 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .webinars-problem-icon {
+    width: 2.75rem;
+    height: 2rem;
+  }
+
+  .webinars-execution-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .webinars-results-grid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
+  .webinars-result-card {
+    text-align: center;
+  }
+
+  .webinars-result-card h3 {
+    font-size: 2.8rem;
+  }
+
+  .webinars-result-card p {
+    text-align: center;
+  }
+
+}
