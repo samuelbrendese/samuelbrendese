@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 import Blue_Download from "../images/icons/Blue_Download.svg";
 import White_Download from "../images/icons/White_Download.svg";
@@ -24,12 +25,12 @@ export default function Nav() {
   
   return (
     <nav className="nav">
-      <a href="/" className="nav-logo"><img src={SB} alt="SB_Logo" /></a>
+      <Link to="/" className="nav-logo"><img src={SB} alt="SB_Logo" /></Link>
 
       <div className="nav-links">
-        <a href="/">Portfolio</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Portfolio</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
 
         <a href={Resume} download className="nav-resume-button">
           Resume
@@ -52,10 +53,10 @@ export default function Nav() {
 
         {menuOpen && (
           <div className="mobile-menu">
-            <a href="/">Portfolio</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
-            <a href="/resume.pdf" download>
+            <Link to="/">Portfolio</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+            <a href={Resume} download>
               Resume
               <img src="/images/download-icon.png" alt="" />
             </a>

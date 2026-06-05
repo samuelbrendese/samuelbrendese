@@ -14,7 +14,7 @@ import { ScrollRestoration } from "./components/ScrollRestoration";
 export default function App() {
   return (
     <div className="app-container">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <ScrollRestoration />
         <Routes>
           <Route index element={<Portfolio />} />
