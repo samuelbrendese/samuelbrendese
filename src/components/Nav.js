@@ -27,7 +27,12 @@ export default function Nav() {
   
   return (
     <nav className="nav">
-      <Link to="/" className="nav-logo"><img src={SB} alt="SB_Logo" /></Link>
+      <Link to="/" className="nav-logo" onClick={() => {
+        if (location.pathname === "/") { window.scrollTo(0,0); window.location.reload(); }
+        else { window.scrollTo(0,0); }
+      }}>
+        <img src={SB} alt="SB_Logo" />
+      </Link>
 
       <div className="nav-links">
         <Link to="/" onClick={() => {
