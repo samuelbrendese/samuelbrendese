@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/samuelbrendese/static/css/main.cda10e2d.css",
-    "main.js": "/samuelbrendese/static/js/main.523a2dd5.js",
+    "main.css": "/samuelbrendese/static/css/main.a6519dfa.css",
+    "main.js": "/samuelbrendese/static/js/main.370c2766.js",
     "static/media/Fuscos_Logo.svg": "/samuelbrendese/static/media/Fuscos_Logo.ee6ae36d7564f60d4ca3c78b96e43232.svg",
     "static/media/Recommender_Page.png": "/samuelbrendese/static/media/Recommender_Page.f4ae826e80efb83e802b.png",
     "static/media/SB_Logo.png": "/samuelbrendese/static/media/SB_Logo.c1efe061c7f292adef84.png",
     "static/media/Small_Fusco_Logo.png": "/samuelbrendese/static/media/Small_Fusco_Logo.7cdbd88e9783709ec77c.png",
     "static/media/Blue_Circles.png": "/samuelbrendese/static/media/Blue_Circles.105000ffbf3402ebe5cb.png",
     "static/media/Mobile_Blue_Circles.png": "/samuelbrendese/static/media/Mobile_Blue_Circles.308bc4b7d44927bf3211.png",
-    "static/media/Recommender_Logo.svg": "/samuelbrendese/static/media/Recommender_Logo.9529a36163ee06af9ff53c0bb8b793a6.svg",
-    "static/media/Webinars_Logo.svg": "/samuelbrendese/static/media/Webinars_Logo.7a08a34beeb0b490a7deb7c81595df6e.svg",
+    "static/media/Recommender_Logo.svg": "/samuelbrendese/static/media/Recommender_Logo.e5c5b70e1a5fe64e292c38473af92957.svg",
+    "static/media/Webinars_Logo.svg": "/samuelbrendese/static/media/Webinars_Logo.98bccfd0ae9052172493be81aeb7bf0c.svg",
     "static/media/Recommender_UX.png": "/samuelbrendese/static/media/Recommender_UX.c97147a944feb562e207.png",
     "static/media/Small_Recommender_Logo.png": "/samuelbrendese/static/media/Small_Recommender_Logo.cba4d4c07bcc6adb3159.png",
     "static/media/Small_Webinars_Logo.png": "/samuelbrendese/static/media/Small_Webinars_Logo.95fe71ff7dd74594cf24.png",
     "static/media/Webinar_Page.png": "/samuelbrendese/static/media/Webinar_Page.20c7573b48986ce312f6.png",
     "static/media/Sam_Brendese.jpg": "/samuelbrendese/static/media/Sam_Brendese.554c4c8637d4cca871fd.jpg",
     "static/media/RESUME_SAMUEL_BRENDESE.pdf": "/samuelbrendese/static/media/RESUME_SAMUEL_BRENDESE.b0a166040d0530a6a1b9.pdf",
+    "static/media/Y_Health_Logo.svg": "/samuelbrendese/static/media/Y_Health_Logo.31304711d92ebda4cfab13a20426febc.svg",
     "static/media/Blue_Low_Engagement.svg": "/samuelbrendese/static/media/Blue_Low_Engagement.a4d5ab6fbee68e1b5a48f039be324e63.svg",
     "static/media/Blue_People.svg": "/samuelbrendese/static/media/Blue_People.48468341b47a88ff1d797f78f8258e81.svg",
     "static/media/Blue_Time.svg": "/samuelbrendese/static/media/Blue_Time.b0c8b57bcdbf28a9be723bdb04cb0476.svg",
@@ -25,7 +26,6 @@
     "static/media/Small_Y_Health_Logo.svg": "/samuelbrendese/static/media/Small_Y_Health_Logo.45f6e863b1b045719ab43ca13311d154.svg",
     "static/media/Dark_Blue_Email.svg": "/samuelbrendese/static/media/Dark_Blue_Email.793b3be119b9561d9f70a375eb08f57c.svg",
     "static/media/Blue_Down_Arrow.svg": "/samuelbrendese/static/media/Blue_Down_Arrow.7a9af481b7fb639dc7b9859a78241baa.svg",
-    "static/media/Y_Health_Logo.svg": "/samuelbrendese/static/media/Y_Health_Logo.a723437014dc9bae43b88d09e550c84b.svg",
     "static/media/Footer_Dark_Github.svg": "/samuelbrendese/static/media/Footer_Dark_Github.d7765e5592d93a81cf18c2e3766bdf10.svg",
     "static/media/Footer_Github.svg": "/samuelbrendese/static/media/Footer_Github.8367c005d1bf1403d37d059576a1acd9.svg",
     "static/media/Footer_Dark_Email.svg": "/samuelbrendese/static/media/Footer_Dark_Email.7b178c444d6ed58dca9cb0543c247a29.svg",
@@ -45,11 +45,11 @@
     "static/media/Dark_Blue_Download.svg": "/samuelbrendese/static/media/Dark_Blue_Download.94b262bdf6801004287b75efdc4f98aa.svg",
     "static/media/User.svg": "/samuelbrendese/static/media/User.1dcd3056fbfb3de3a9eac9e0f654a038.svg",
     "static/media/Black_Download.svg": "/samuelbrendese/static/media/Black_Download.5c981afccbf1c3d7f6f3adbab6a33543.svg",
-    "main.cda10e2d.css.map": "/samuelbrendese/static/css/main.cda10e2d.css.map",
-    "main.523a2dd5.js.map": "/samuelbrendese/static/js/main.523a2dd5.js.map"
+    "main.a6519dfa.css.map": "/samuelbrendese/static/css/main.a6519dfa.css.map",
+    "main.370c2766.js.map": "/samuelbrendese/static/js/main.370c2766.js.map"
   },
   "entrypoints": [
-    "static/css/main.cda10e2d.css",
-    "static/js/main.523a2dd5.js"
+    "static/css/main.a6519dfa.css",
+    "static/js/main.370c2766.js"
   ]
 }
