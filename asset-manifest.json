@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samuelbrendese/static/css/main.7eafb58c.css",
-    "main.js": "/samuelbrendese/static/js/main.370c2766.js",
+    "main.js": "/samuelbrendese/static/js/main.a1dd0e83.js",
     "static/media/Fuscos_Logo.svg": "/samuelbrendese/static/media/Fuscos_Logo.ee6ae36d7564f60d4ca3c78b96e43232.svg",
     "static/media/Recommender_Page.png": "/samuelbrendese/static/media/Recommender_Page.f4ae826e80efb83e802b.png",
     "static/media/SB_Logo.png": "/samuelbrendese/static/media/SB_Logo.c1efe061c7f292adef84.png",
@@ -15,7 +15,7 @@
     "static/media/Small_Webinars_Logo.png": "/samuelbrendese/static/media/Small_Webinars_Logo.95fe71ff7dd74594cf24.png",
     "static/media/Webinar_Page.png": "/samuelbrendese/static/media/Webinar_Page.20c7573b48986ce312f6.png",
     "static/media/Sam_Brendese.jpg": "/samuelbrendese/static/media/Sam_Brendese.554c4c8637d4cca871fd.jpg",
-    "static/media/RESUME_SAMUEL_BRENDESE.pdf": "/samuelbrendese/static/media/RESUME_SAMUEL_BRENDESE.b0a166040d0530a6a1b9.pdf",
+    "static/media/RESUME_SAMUEL_BRENDESE.pdf": "/samuelbrendese/static/media/RESUME_SAMUEL_BRENDESE.042a0f5c5e6381391ce5.pdf",
     "static/media/Y_Health_Logo.svg": "/samuelbrendese/static/media/Y_Health_Logo.31304711d92ebda4cfab13a20426febc.svg",
     "static/media/Blue_Low_Engagement.svg": "/samuelbrendese/static/media/Blue_Low_Engagement.a4d5ab6fbee68e1b5a48f039be324e63.svg",
     "static/media/Blue_People.svg": "/samuelbrendese/static/media/Blue_People.48468341b47a88ff1d797f78f8258e81.svg",
@@ -46,10 +46,10 @@
     "static/media/User.svg": "/samuelbrendese/static/media/User.1dcd3056fbfb3de3a9eac9e0f654a038.svg",
     "static/media/Black_Download.svg": "/samuelbrendese/static/media/Black_Download.5c981afccbf1c3d7f6f3adbab6a33543.svg",
     "main.7eafb58c.css.map": "/samuelbrendese/static/css/main.7eafb58c.css.map",
-    "main.370c2766.js.map": "/samuelbrendese/static/js/main.370c2766.js.map"
+    "main.a1dd0e83.js.map": "/samuelbrendese/static/js/main.a1dd0e83.js.map"
   },
   "entrypoints": [
     "static/css/main.7eafb58c.css",
-    "static/js/main.370c2766.js"
+    "static/js/main.a1dd0e83.js"
   ]
 }
